@@ -5,8 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F0F8FF;
+}
+.zoom-item {
+  transition: transform 0.1s; /* Add a smooth transition on transform property */
 }
 
+.zoom-item:hover {
+  transform: scale(1.05); /* Scale the text to 1.1 times its original size on hover */
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
